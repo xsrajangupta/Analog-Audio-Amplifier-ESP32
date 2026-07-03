@@ -13,9 +13,9 @@
 
 # 📖 Overview
 
-The **Analog Audio Amplifier with Tone Control, ESP32 MP3 Decoding & Ultrasonic Volume Control** is an embedded electronics project that combines modern digital audio processing with a high-quality analog amplification system.
+The **Analog Audio Amplifier with Tone Control, ESP32 MP3 Decoding & Ultrasonic Volume Control** is an embedded electronics project that combines digital audio processing with high-quality analog amplification.
 
-The system uses an **ESP32 microcontroller** to decode MP3 files from an SD card and stream audio to a **NE5532-based active tone control circuit**. The processed signal is amplified using a **Class-AB Power Amplifier** built with discrete transistors. Two **HC-SR04 Ultrasonic Sensors** provide touchless gesture-based volume and mute control, creating an intuitive Human-Computer Interaction (HCI) experience.
+The system uses an **ESP32** to decode MP3 audio files from an SD card and stream them to a **NE5532 active tone control circuit**. The processed signal is then amplified using a **Class-AB Power Amplifier** built with discrete transistors. Two **HC-SR04 Ultrasonic Sensors** enable touchless gesture-based volume and mute control, creating an intuitive Human-Computer Interaction (HCI) experience.
 
 ---
 
@@ -44,8 +44,8 @@ The system uses an **ESP32 microcontroller** to decode MP3 files from an SD card
 - 2N3906 Transistor
 - HC-SR04 Ultrasonic Sensors
 - Relay Module
-- Speaker (8Ω)
 - MicroSD Card Module
+- Speaker (8Ω)
 - Capacitors & Resistors
 - Breadboard / PCB
 - Jumper Wires
@@ -73,16 +73,11 @@ Analog-Audio-Amplifier-ESP32
 ├── MATLAB/
 │      signal_analysis.m
 │
-├── Circuit Diagrams/
-│      amplifier_circuit.png
-│      tone_control.png
-│
-├── Simulation/
-│      multisim_output.png
-│
-├── Images/
-│      hardware_setup.jpg
-│      waveform.png
+├── images/
+│      circuit diagram.png
+│      hardware implementation.png
+│      output.png
+│      simulation result.png
 │
 ├── Report/
 │      Project_Report.pdf
@@ -103,34 +98,40 @@ Analog-Audio-Amplifier-ESP32
 5. The Class-AB amplifier amplifies the processed audio.
 6. HC-SR04 ultrasonic sensors detect hand gestures.
 7. Gestures control volume level and mute functionality.
-8. Amplified audio is delivered to the speaker.
+8. High-quality amplified audio is delivered to the speaker.
 
 ---
 
 # 📸 Project Images
 
-### Hardware Implementation
+## Circuit Diagram
 
 <p align="center">
-<img src="Images/hardware_setup.jpg" width="700">
+<img src="images/circuit diagram.png" width="750">
 </p>
 
-### Tone Control Circuit
+---
+
+## Hardware Implementation
 
 <p align="center">
-<img src="Circuit Diagrams/tone_control.png" width="700">
+<img src="images/hardware implementation.png" width="750">
 </p>
 
-### Class-AB Amplifier Circuit
+---
+
+## Output Waveform
 
 <p align="center">
-<img src="Circuit Diagrams/amplifier_circuit.png" width="700">
+<img src="images/output.png" width="750">
 </p>
 
-### Output Waveform
+---
+
+## Multisim Simulation Result
 
 <p align="center">
-<img src="Simulation/multisim_output.png" width="700">
+<img src="images/simulation result.png" width="750">
 </p>
 
 ---
@@ -142,8 +143,9 @@ Analog-Audio-Amplifier-ESP32
 - Embedded Audio Devices
 - Consumer Electronics
 - Gesture-Controlled Electronics
-- Educational Embedded Systems
+- Educational Electronics Projects
 - Analog & Digital Audio Processing
+- Human-Computer Interaction (HCI)
 
 ---
 
@@ -151,12 +153,12 @@ Analog-Audio-Amplifier-ESP32
 
 - Bluetooth Audio Streaming
 - OLED Display Integration
-- Mobile App Control
-- Wi-Fi Audio Streaming
-- DSP-Based Audio Equalizer
-- Voice Assistant Integration
+- Wi-Fi Music Streaming
+- Mobile Application Control
+- DSP-Based Digital Equalizer
 - AI-Based Gesture Recognition
-- Class-D Amplifier Upgrade
+- Voice Assistant Integration
+- Class-D Power Amplifier Upgrade
 
 ---
 
@@ -179,4 +181,4 @@ GitHub: https://github.com/xsrajangupta
 
 If you found this project useful, consider giving it a **⭐ Star** on GitHub!
 
-It motivates me to build and share more open-source projects.
+It motivates me to build and share more open-source embedded systems and electronics projects.
