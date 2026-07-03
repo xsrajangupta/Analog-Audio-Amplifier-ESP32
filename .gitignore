@@ -1,0 +1,16 @@
+# Arduino
+*.ino.cpp
+*.elf
+*.hex
+
+# ESP32 Build
+build/
+.pio/
+.vscode/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
