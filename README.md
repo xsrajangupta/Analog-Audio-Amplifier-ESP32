@@ -1,4 +1,4 @@
-# 🔊 Analog Audio Amplifier with Tone Control, ESP32 MP3 Decoding & Ultrasonic Volume Control
+#  Analog Audio Amplifier with Tone Control, ESP32 MP3 Decoding & Ultrasonic Volume Control
 
 <p align="center">
 
@@ -11,7 +11,7 @@
 
 ---
 
-# 📖 Overview
+#  Overview
 
 The **Analog Audio Amplifier with Tone Control, ESP32 MP3 Decoding & Ultrasonic Volume Control** is an embedded electronics project that combines digital audio processing with high-quality analog amplification.
 
@@ -19,22 +19,21 @@ The system uses an **ESP32** to decode MP3 audio files from an SD card and strea
 
 ---
 
-# ✨ Features
+#  Features
 
-- 🎵 ESP32 MP3 Audio Playback
-- 🎚️ Active Bass & Treble Tone Control
-- 🔊 Class-AB Audio Amplifier
-- 📀 SD Card Audio Support
-- 🤚 Ultrasonic Gesture-Based Volume Control
-- 🔇 Touchless Mute Control
-- 📈 MATLAB Signal Analysis
-- ⚡ Multisim Circuit Simulation
-- 🎛️ Low Distortion Audio Output
-- 🖥️ Embedded Audio Processing
+-  ESP32 MP3 Audio Playback
+-  Active Bass & Treble Tone Control
+-  Class-AB Audio Amplifier
+-  SD Card Audio Support
+-  Ultrasonic Gesture-Based Volume Control
+-  MATLAB Signal Analysis
+-  Multisim Circuit Simulation
+-  Low Distortion Audio Output
+- Embedded Audio Processing
 
 ---
 
-# 🔧 Hardware Requirements
+#  Hardware Requirements
 
 - ESP32 Development Board
 - NE5532 Tone Control Module
@@ -53,7 +52,7 @@ The system uses an **ESP32** to decode MP3 audio files from an SD card and strea
 
 ---
 
-# 💻 Software Requirements
+## Software Requirements
 
 - Arduino IDE
 - MATLAB
@@ -62,16 +61,11 @@ The system uses an **ESP32** to decode MP3 audio files from an SD card and strea
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```text
 Analog-Audio-Amplifier-ESP32
 │
-├── ESP32 Code/
-│      amplifier.ino
-│
-├── MATLAB/
-│      signal_analysis.m
 │
 ├── images/
 │      circuit diagram.png
@@ -89,7 +83,7 @@ Analog-Audio-Amplifier-ESP32
 
 ---
 
-# ⚙️ Working Principle
+#  Working Principle
 
 1. MP3 files are stored on the SD Card.
 2. ESP32 decodes the MP3 audio stream.
@@ -102,7 +96,7 @@ Analog-Audio-Amplifier-ESP32
 
 ---
 
-# 📸 Project Images
+#  Project Images
 
 ## Circuit Diagram
 
@@ -136,7 +130,7 @@ Analog-Audio-Amplifier-ESP32
 
 ---
 
-# 🚀 Applications
+#  Applications
 
 - Smart Audio Systems
 - Home Audio Amplifiers
@@ -149,7 +143,7 @@ Analog-Audio-Amplifier-ESP32
 
 ---
 
-# 🔮 Future Scope
+#  Future Scope
 
 - Bluetooth Audio Streaming
 - OLED Display Integration
@@ -162,12 +156,10 @@ Analog-Audio-Amplifier-ESP32
 
 ---
 
-# 👨‍💻 Authors
+#  Author
 
 - **Srajan Gupta**
-- Saksham Arora
-- Daspati Anuraag Prahas
-- Surya Pratap Singh
+
 
 **B.Tech Electronics and Communication Engineering (ECE)**
 
@@ -177,7 +169,7 @@ GitHub: https://github.com/xsrajangupta
 
 ---
 
-## ⭐ Support
+##  Support
 
 If you found this project useful, consider giving it a **⭐ Star** on GitHub!
 
